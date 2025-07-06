@@ -1,5 +1,9 @@
 # Задача №1: Количество ежедневных поездок
 
+![Python](https://img.shields.io/badge/python-3.8-green)
+
+### [Назад к Data Wrangling ⤶](https://github.com/adrianhel/data_wrangling_exercises.md)
+
 ### Вопрос 
 Сколько поездок делают каждый день клиенты системы ***Citi Bike*** отдельно по категориям `subscribers` и `customers`?
 
