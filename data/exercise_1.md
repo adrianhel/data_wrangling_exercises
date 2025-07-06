@@ -4,8 +4,7 @@
 
 ### [Назад к Data Wrangling ⤶](https://github.com/adrianhel/data_wrangling_exercises/blob/main/README.md)
 
-### Вопрос 
-Сколько поездок делают каждый день клиенты системы ***Citi Bike*** отдельно по категориям `subscribers` и `customers`?
+Сколько поездок делают каждый день клиенты системы **Citi Bike** отдельно по категориям `subscribers` и `customers`?
 
 Выберите один день для исследования.
 
