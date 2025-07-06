@@ -2,19 +2,19 @@
 
 ![Python](https://img.shields.io/badge/python-3.8-green)
 
-### [Назад к Data Wrangling ⤶](https://github.com/adrianhel/data_wrangling_exercises.md)
+### [Назад к Data Wrangling ⤶](https://github.com/adrianhel/data_wrangling_exercises/blob/main/README.md)
 
 ### Вопрос 
 Сколько поездок делают каждый день клиенты системы ***Citi Bike*** отдельно по категориям `subscribers` и `customers`?
 
-### Ответ
 Выберите один день для исследования.
 
 ### Датасет
 Набор данных взят с https://s3.amazonaws.com/tripdata/index.html
+
 Имя файла: `202009-citibike-tripdata.csv`
 
-### Обрисовка программы
+## Обрисовка программы
 1. Считываем файл данных.
 2. Создаем переменные для подсчета значений `subscribers`, `customers` и `other`.
 3. Для каждой строки в файле:
@@ -27,15 +27,15 @@ c) в противном случае инкрементируем на 1 зна
 
 [Задача №1](hitting_the_road_with_citibike.py)
 
-### Разбор кода
-#### Шаг 1
+## Разбор кода
+### Шаг 1
 Импортируем библиотеку **csv**.
 
 ```python
 import csv
 ```
 
-Открываем файл `202009-citibike-tripdata.csv` в режиме чтения ***r***.
+Открываем файл `202009-citibike-tripdata.csv` в режиме чтения **r**.
 
 ```python
 source_file = open("202009-citibike-tripdata.csv", "r")
@@ -48,7 +48,7 @@ source_file = open("202009-citibike-tripdata.csv", "r")
 citibike_reader = csv.DictReader(source_file)
 ```
 
-Метод _DictReader_ добавляет в наши данные некоторую полезную информацию. Например, свойство `fieldnames` позволяет 
+Метод ***DictReader*** добавляет в наши данные некоторую полезную информацию. Например, свойство `fieldnames` позволяет 
 обращаться ко всем значениям в первой строке/заголовке.
 
 ```python
@@ -58,7 +58,7 @@ print(*citibike_reader.fieldnames, sep='\n')
 Отображая значения `citibike_reader.fieldnames`, мы можем видеть, что точным именем столбца `User Type` является 
 `usertype`.
 
-#### Шаг 2
+### Шаг 2
 Создаем переменные для хранения количества пользователей каждого типа.
 Инициируем каждую переменную, присваивая ей значения 0.
 
@@ -68,7 +68,7 @@ customer_count = 0
 other_user_count = 0
 ```
 
-#### Шаг 3
+### Шаг 3
 Обрабатываем в цикле каждую строку данных
 
 ```python
@@ -110,7 +110,7 @@ for row in citibike_reader:
         other_user_count += 1
 ```
 
-#### Шаг 4
+### Шаг 4
 Отображаем результаты, включая заголовки.
 
 Количество подписчиков
@@ -131,7 +131,7 @@ print(f"Number of customers: {customer_count}")
 print(f"Number of 'other' users: {other_user_count}")
 ```
 
-### Заключение
+## Заключение
 Посредством данного сценария мы решили следующие задачи:
 1. Успешно подсчитали количество пользователей типы `Subscriber` и `Customer`,
 которые использовали услуги системы **CitiBike** в сентябре 2020г.
