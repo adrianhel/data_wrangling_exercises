@@ -1,5 +1,9 @@
 # Data Wrangling Exercises
-#### [Назад к списку репозиториев ⤶](https://github.com/adrianhel/contents)
+
+![da](https://img.shields.io/badge/data_analytics-green)
+![dq](https://img.shields.io/badge/data_quality-green)
+
+### [Назад к Содержанию ⤶](https://github.com/adrianhel/contents)
 
 > _Это репозиторий для хранения кода моих задач по выпасу данных._
 
