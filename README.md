@@ -1,7 +1,7 @@
 # Data Wrangling Exercises
 
-![dq](https://img.shields.io/badge/data_quality-green)
-![dw](https://img.shields.io/badge/data_wrangling-green)
+![dq](https://img.shields.io/badge/data_quality-grey)
+![dw](https://img.shields.io/badge/data_wrangling-grey)
 
 ### [Назад к Содержанию ⤶](https://github.com/adrianhel/contents)
 
