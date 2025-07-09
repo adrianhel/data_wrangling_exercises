@@ -1,6 +1,6 @@
 # Задача №1: Количество ежедневных поездок
 
-![Python](https://img.shields.io/badge/python-3.8-green)
+![Python](https://img.shields.io/badge/python-3.8-blue?logo=pypi)
 
 ### [Назад к Data Wrangling ⤶](https://github.com/adrianhel/data_wrangling_exercises/blob/main/README.md)
 
