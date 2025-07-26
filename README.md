@@ -3,9 +3,11 @@
 ![dq](https://img.shields.io/badge/data-quality-blue)
 ![dw](https://img.shields.io/badge/data-wrangling-blue)
 
-### [Назад к Содержанию ⤶](https://github.com/adrianhel/contents)
+### [На главную ⤶](https://github.com/adrianhel/contents)
 
 ___
+
+<img src="img/cover.png" width="100%">
 
 > _**Выпас данных** (Data Wrangling)_ — это процесс преобразования "сырых" или "обнаруженных" данных в форму, 
 > которую можно использовать для получения знаний и смысла.
