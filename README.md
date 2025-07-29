@@ -9,6 +9,11 @@ ___
 
 <img src="img/cover.png" width="100%">
 
+##  О проекте
+_Проект посвящен выпасу данных в рамках анализа 
+[книги](https://www.livelib.ru/book/1009448059-obrabotka-dannyh-na-python-data-wrangling-i-data-quality-makgregor-s) 
+"Обработка данных на Python. Data Wrangling и Data Quality" Сьюзен Макгрегор._
+
 > _**Выпас данных** (Data Wrangling)_ — это процесс преобразования "сырых" или "обнаруженных" данных в форму, 
 > которую можно использовать для получения знаний и смысла.
 
